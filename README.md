@@ -100,7 +100,7 @@ form.update_field_by_label_and_page_number(label="field_1_name", page_number=1, 
 form.export_to_json()
 ```
 
-### Load Annotations
+### Load Updated Annotations
 
 ```python
 form.load_updated_annotaion_json(json_path="path/to/json")
