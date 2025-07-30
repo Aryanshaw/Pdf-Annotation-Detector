@@ -28,11 +28,11 @@ form_pdf.update_field_by_anotation_id_and_page_number(
     }
 )
 
-# form_pdf.load_updated_annotaion_json("anotation_output.json")
+# form_pdf.load_updated_annotaion_json("annotation_output.json")
 
 # form_pdf.print_summary()
 # output = form_pdf.export_to_json()
-# # with open("anotation_output.json", "w") as f:
+# # with open("anontation_output.json", "w") as f:
 # #     f.write(output)
 
 form_pdf.save_pdf()

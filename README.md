@@ -22,6 +22,20 @@ pip install pymupdf
 pip install -r requirements.txt
 ```
 
+## File structure
+
+```bash
+.
+├── annotation_editor.py # main delaration file of the data structure
+├── requirements.txt
+├── README.md
+├── main.py # main file to run the data structure
+├── form_1.pdf
+└── output.pdf
+└── annotaion.json # sample structure of the annotation data strucutre
+└── output.json # sample output of an analysis of the annotation of a pdf form using the data structure
+```
+
 ## Methods
 
 AnnotationForm reads and parses the pdf as soon as it is instantiated.
