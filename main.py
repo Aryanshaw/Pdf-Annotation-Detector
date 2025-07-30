@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from instead.annotation_editor import AnnotationForm
+from annotation_editor import AnnotationForm
 
 # Load the PDF
 app = FastAPI()
