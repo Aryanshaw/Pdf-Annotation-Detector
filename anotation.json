@@ -1,0 +1,52 @@
+{
+  "form": {
+    "id": "string",
+    "name": "string",
+    "year": "number",
+    "version": "string",
+    "dimensions": {
+      "width": "number",
+      "height": "number",
+      "unit": "string"
+    }
+  },
+  "pages": [
+    {
+      "pageNumber": "number",
+      "annotations": [
+        {
+          "id": "string",
+          "type": "enum[text|checkbox|signature|table|calculated]",
+          "label": "string",
+          "position": {
+            "x": "number",
+            "y": "number",
+            "width": "number",
+            "height": "number",
+            "unit": "string"
+          },
+          "formatting": {
+            "fontSize": "number",
+            "fontFamily": "string",
+            "alignment": "enum[left|center|right]",
+            "maxLength": "number",
+            "pattern": "string",
+            "required": "boolean"
+          },
+          "dataReference": {
+            "path": "string",
+            "defaultValue": "any"
+          }
+        }
+      ]
+    }
+  ],
+  "calculations": [
+    {
+      "id": "string",
+      "formula": "string",
+      "inputs": ["string"],
+      "output": "string"
+    }
+  ]
+}
